@@ -43,7 +43,7 @@ class digit_renderer:
         self.render_config = cfg
 
         if randomize:
-            bg_id = random.randint(0, 9)
+            bg_id = random.randint(0, 3)
         # Create renderer
         self.renderer = tacto.Renderer(
             width=cfg.width,
